@@ -1,3 +1,4 @@
+import datetime
 import time
 
 def isTimeFormat(input): 
@@ -12,6 +13,14 @@ def isTimeFormat(input):
                 else :
                     time.strptime(start, '%H:%M %p')
                     time.strptime(end, '%H:%M %p')
+                    s=start.split(":")
+                    hour=s[0]+':00'
+                    minute=s[1]
+                    e=end.split(":")
+                    eHour=e[0]+':00'
+                    eMinute=e[1]
+                    print('start: hour =', hour,'minute =', minute)
+                    print('end: hour =', eHour,'minute =', eMinute)
                     return start + ' - ' + end
             except ValueError:
                 return False
@@ -23,10 +32,26 @@ def isTimeFormat(input):
                     start = ' '.join(input.split()[0:2])  
                     end = ' '.join(input.split()[3:])
                     time.strptime(start, '%H:%M %p')
+                    s=start.split(":")
+                    hour=s[0]+':00'
+                    minute=s[1]
+                    e=end.split(":")
+                    eHour=e[0]+':00'
+                    eMinute=e[1]
+                    print('start: hour =', hour,'minute =', minute)
+                    print('end: hour =', eHour,'minute =', eMinute)
                     return start
                 else :
                     time.strptime(start, '%H:%M')
                     time.strptime(end, '%H:%M %p')
+                    s=start.split(":")
+                    hour=s[0]+':00'
+                    minute=s[1]
+                    e=end.split(":")
+                    eHour=e[0]+':00'
+                    eMinute=e[1]
+                    print('start: hour =', hour,'minute =', minute)
+                    print('end: hour =', eHour,'minute =', eMinute)
                     return start + ' - ' + end
             except ValueError:
                 return False
@@ -41,6 +66,14 @@ def isTimeFormat(input):
                 else :
                     time.strptime(start, '%H:%M %p')
                     time.strptime(end, '%H:%M %p')
+                    s=start.split(":")
+                    hour=s[0]+':00'
+                    minute=s[1]
+                    e=end.split(":")
+                    eHour=e[0]+':00'
+                    eMinute=e[1]
+                    print('start: hour =', hour,'minute =', minute)
+                    print('end: hour =', eHour,'minute =', eMinute)
                     return start + ' - ' + end
             except ValueError:
                 return False
@@ -52,11 +85,23 @@ def isTimeFormat(input):
                     if input.count(":")==1:
                         start = ' '.join(input.split()[0:2])  
                         end = ' '.join(input.split()[3:])
+                        s=start.split(":")
+                        hour=s[0]+':00'
+                        minute=s[1]
+                        print('start: hour =', hour,'minute =', minute)
                         time.strptime(start, '%H:%M %p')
                         return start
                     else :
                         time.strptime(start, '%H:%M')
                         time.strptime(end, '%H:%M %p')
+                        s=start.split(":")
+                        hour=s[0]+':00'
+                        minute=s[1]
+                        e=end.split(":")
+                        eHour=e[0]+':00'
+                        eMinute=e[1]
+                        print('start: hour =', hour,'minute =', minute)
+                        print('end: hour =', eHour,'minute =', eMinute)
                         return start + ' - ' + end
                 except ValueError:
                     return False
@@ -68,20 +113,37 @@ def isTimeFormat(input):
                     if input.count(":")==1:
                         start = ' '.join(input.split()[0:2])  
                         end = ' '.join(input.split()[3:])
+                        s=start.split(":")
+                        hour=s[0]+':00'
+                        minute=s[1]
+                        e=end.split(":")
+                        eHour=e[0]+':00'
+                        eMinute=e[1]
+                        print('start: hour =', hour,'minute =', minute)
+                        print('end: hour =', eHour,'minute =', eMinute)
                         time.strptime(start, '%H:%M %p')
                         return start
                     else :
                         time.strptime(start, '%H:%M')
                         time.strptime(end, '%H:%M %p')
+                        s=start.split(":")
+                        hour=s[0]+':00'
+                        minute=s[1]
+                        e=end.split(":")
+                        eHour=e[0]+':00'
+                        eMinute=e[1]
+                        print('start: hour =', hour,'minute =', minute)
+                        print('end: hour =', eHour,'minute =', eMinute)
                         return start + ' - ' + end
                 except ValueError:
                     return False
+    
 
 
    
 print(isTimeFormat('2:30 AM - 3:30 PM'))
 print(isTimeFormat('9:30 AM - 10:20 AM'))
-print(isTimeFormat('9:30 AM - 20:20 AM'))
+print(isTimeFormat('10:30 AM - 20:20 AM'))
 print(isTimeFormat('9:30 AM'))
 print(isTimeFormat('9:30 - 10:20 AM'))
 print(isTimeFormat('10:30-10:40 AM'))
