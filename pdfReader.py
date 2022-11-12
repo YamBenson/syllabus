@@ -8,7 +8,7 @@ pdfFileObj = open('PH141Syllabus_Fall2022.pdf', 'rb')
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj) 
     
 # printing number of pages in pdf file 
-print(pdfReader.numPages) 
+# print(pdfReader.numPages) 
     
 for i in range(pdfReader.numPages):
     # creating a page object 
