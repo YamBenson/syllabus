@@ -1,0 +1,105 @@
+PH 141 Fall 2022
+Foundations of Mechanics
+Syllabus
+Week Class Date Subject (Reading assignments from Halliday, Resnick and Walker)
+(1) 1 Sept. 7 Introduction to PH141 and the science of physics
+Read: Sections 1-1 through 1-3
+2 Sept. 9 Motion and its description
+Read: Sections 2-1 and 2-2
+Ungraded PH141 questionnaire due
+(2) 3 Sept. 12 Acceleration and “the kinematic equations”
+Read: Sections 2-3 and 2-4
+Problem Set #1 due
+4 Sept. 14 Freely falling objects
+Read: Section 2-5
+5 Sept. 16 Vectors and motion in more than one dimension
+Read: Sections 3-1, 3-2, and 4-1
+Problem Set #2 due
+(3) 6 Sept. 19 Vectors for velocity and acceleration; projectile motion
+Read: Sections 4-2 through 4-4
+7 Sept. 21 Classic problems in projectile motion
+Read: Section 4-4
+8 Sept. 23 Circular motion and relative motion
+Read: Sections 4-5 and 4-6
+Problem Set #3 due
+(4) 9 Sept. 26 Newton’s laws of motion: inertia, mass, and force
+Read: Sections 5-1 and 5-2
+10 Sept. 28 Newton’s second law and some applications
+Read: Sections 5-2 and 5-3
+11 Sept. 30 Newton’s third law and more applications
+Read: Section 5-3
+Problem Set #4 dueWeek Class Date Subject
+(5) Oct. 2 (Sunday) Optional Midterm #1 Review Session
+6:30-8:00 PM in Keyes 105
+12 Oct. 3 Midterm #1
+13 Oct. 5 Frictional forces and dynamics
+Read: Sections 6-1 and 6-2
+14 Oct. 7 Circular motion and forces: Ferris wheels, roller coasters, and swinging buckets
+Read: Section 6-3
+Problem Set #5 due
+(6) Oct. 10 Fall Break
+15 Oct. 12 Work and energy: a new way of understanding interactions
+Read: Sections 7-1 through 7-3, and 3-3
+16 Oct. 14 The work-energy theorem
+Read: Sections 7-4 through 7-6
+Problem Set #6 due
+(7) 17 Oct. 17 Potential energy and the “conservation” of energy
+Read: Sections 8-1 and 8-2
+18 Oct. 19 Potential energy curves and the extended law of conservation of energy
+Read: Sections 8-3 through 8-5
+19 Oct. 21 Motion of a system of objects: center of mass and its motion
+Read: Sections 9-1 through 9-3
+Problem Set #7 due
+(8) 20 Oct. 24 Momentum, impulse, and the conservation of linear momentum:
+golf swings, karate strikes, air bags, and rockets
+Read: Sections 9-4, 9-5, and 9-9
+21 Oct. 26 Collisions
+Read: Sections 9-6 through 9-8
+22 Oct. 28 Rigid objects and rotational kinematics
+Read: Sections 10-1 through 10-3
+Problem Set #8 dueWeek Class Date Subject
+(9) 23 Oct. 31 Moment of inertia and torque
+Read: Sections 10-4 through 10-6
+Nov. 1 (Tuesday) Optional Midterm #2 Review Session
+Keyes 105 6:30-8:00 PM
+24 Nov. 2 Midterm #2
+25 Nov. 4 Rolling motion and rotational kinetic energy
+Read: Sections 11-1 and 11-2
+Problem Set #9 due
+(10) 26 Nov. 7 Angular momentum
+Read: Section 11-5 through 11-9 and 13-6 (again!)
+27 Nov. 9 Planets, Kepler’s laws and Newton’s universal law of gravitation
+Read: Section 13-6 and 13-1 through 13-4
+28 Nov. 11 Understanding of Kepler’s laws in terms of conservation laws
+Read: Section 13-5
+Problem Set #10 due
+(11) 29 Nov. 14 Oscillators and simple harmonics motion: differential equations
+Read: Sections 15-1 and 15-2
+30 Nov. 16 Angular oscillators and the pendulum
+Read: Sections 15-3 and 15-4
+31 Nov. 18 Fluids, pressure, and Pascal’s principle
+Read: Sections 14-1 through 14-4
+(12) 32 Nov. 21 Archimedes’ principle and Bernoulli’s equation: fluid flow
+Read: Sections 14-5 throug 14-7
+Problem Set #11 due
+Nov. 23 Thanksgiving Break
+Nov. 25 Thanksgiving BreakWeek Class Date Subject
+(13) 33 Nov. 28 Waves and wave equations
+Read: Sections 16-1 through 16-4 and 17-2
+34 Nov. 30 Superposition and standing waves
+Read: Sections 16-5 and 16-7
+35 Dec. 2 Sound waves
+Read: Sections 17-1, 17-2, 17-4, and 17-5
+Problem Set #12 due
+(14) Dec. 4 (Sunday) Optional Midterm #3 Review Session
+Keyes 105 6:30-8:00 PM
+36 Dec. 5 Midterm #3
+37 Dec. 7 Interference and beats
+Read: Sections 17-3 and 17-6
+38 Dec. 9 The Doppler effect
+Read: Sections 17-6 and 17-7
+Problem Set #13 due
+(15) TBA Final Exam Review Session
+Time determined based on student feedback
+TBA Final Exam
+Exam period scheduled by the registrar
