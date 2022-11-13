@@ -1,5 +1,7 @@
 # import dateparser
+import requests
 import datetime
+import dateConvert
 
 # The start!
 f = open("PH141Syllabus_Fall2022.txt", "r")
@@ -11,6 +13,34 @@ temp = {
     "day": None,
     "year": datetime.date.today().year,
     "details": ""
+}
+
+temp2 = {
+  'summary': 'Lecture',
+  'location': '',
+  'description': '',
+  'start': {
+    'dateTime': '2015-05-28T09:00:00-07:00',
+    'timeZone': 'America/Los_Angeles',
+  },
+  'end': {
+    'dateTime': '2015-05-28T17:00:00-07:00',
+    'timeZone': 'America/Los_Angeles',
+  },
+  'recurrence': [
+    'RRULE:FREQ=DAILY;COUNT=2'
+  ],
+  'attendees': [
+    {'email': 'lpage@example.com'},
+    {'email': 'sbrin@example.com'},
+  ],
+  'reminders': {
+    'useDefault': False,
+    'overrides': [
+      {'method': 'email', 'minutes': 24 * 60},
+      {'method': 'popup', 'minutes': 10},
+    ],
+  },
 }
 
 lines = f.readlines()
@@ -69,3 +99,7 @@ for line in lines:
         events.append(event)
 
 print(events)
+url = 'https://www.googleapis.com/calendar/v3/calendars/c_f526f9e05146fa83817f80d3e2a28dc10451d71d3e7641f455bea2deaa6cce53@group.calendar.google.com/events'
+
+for event in events:
+    requests.post(url, json = event)
