@@ -1,7 +1,7 @@
 import dateparser
 
 # The start!
-f = open("samples.txt", "r")
+f = open("PH141Syllabus_Fall2022.txt", "r")
 
 events = []
 
@@ -9,7 +9,7 @@ temp = {
     "month": None,
     "day": None,
     "year": None,
-    "details": None
+    "details": ""
 }
 
 lines = f.readlines()
@@ -22,7 +22,7 @@ for line in lines:
 
     for part in parts:
         if day:
-            event["detail"] = event["detail"] + " " + part
+            event["details"] = event["details"] + " " + part
         if month:
             if part[0:2].isnumeric():
                 if part[0] == "0":
