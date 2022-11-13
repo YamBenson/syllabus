@@ -62,8 +62,9 @@ for line in lines:
                 
                 if event["month"] is not None:
                     month = True
-    
+
     if event["month"] != None:
+        event["details"] = event["details"][0:len(event["details"])-1]
         events.append(event)
 
 print(events)
