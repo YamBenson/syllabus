@@ -1,4 +1,5 @@
 import dateparser
+import datetime
 
 # The start!
 f = open("PH141Syllabus_Fall2022.txt", "r")
@@ -8,7 +9,7 @@ events = []
 temp = {
     "month": None,
     "day": None,
-    "year": None,
+    "year": datetime.date.today().year,
     "details": ""
 }
 
